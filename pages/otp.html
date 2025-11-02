@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/dark.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>تأیید کد یک‌بار مصرف</title>
+</head>
+ <body class="dark">
+  <main>
+    <section>
+      <h1>تأیید کد یک‌بار مصرف (OTP)</h1>
+      <p>کدی که به ایمیل یا شماره شما ارسال شده را وارد کنید.</p>
+
+      <form action="reset-pass.html" method="get">
+        <!-- ورودی کد -->
+        <div>
+          <label for="otp">کد تأیید:</label>
+          <input
+            type="text"
+            id="otp"
+            name="otp"
+            maxlength="6"
+            placeholder="مثلاً 123456"
+            required
+          />
+        </div>
+
+        <!-- دکمه تأیید -->
+        <div>
+          <button type="submit">تأیید</button>
+        </div>
+
+        <!-- دکمه ارسال مجدد -->
+        <div>
+          <button type="button" onclick="resendCode()">ارسال مجدد کد</button>
+        </div>
+
+        <!-- بازگشت به ورود -->
+        <div>
+          <p>
+            <a href="login.html">بازگشت به صفحه ورود</a>
+          </p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script>
+    function resendCode() {
+      alert("کد جدید برای شما ارسال شد ✅");
+    }
+  </script>
+</body>
+</html>
