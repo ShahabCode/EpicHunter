@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/dark.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>بازیابی رمز عبور</title>
+</head>
+ <body class="dark">
+  <main>
+   <div class="form-wrapper">
+    <section class="form-container">
+      <h1>بازیابی رمز عبور</h1>
+      <p>رمز عبور جدید خود را وارد کنید.</p>
+
+      <!-- فرم -->
+      <form action="login.html" method="get">
+        <!-- رمز جدید -->
+        <div >
+          <label for="new-password">رمز عبور جدید:</label>
+          <input
+            type="password"
+            id="new-password"
+            name="new-password"
+            placeholder="رمز جدید"
+            required
+          />
+        </div>
+
+        <!-- تکرار رمز -->
+        <div>
+          <label for="confirm-password">تکرار رمز عبور:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="تکرار رمز جدید"
+            required
+          />
+        </div>
+
+        <!-- دکمه ذخیره -->
+        <div>
+          <button type="submit">ذخیره رمز جدید</button>
+        </div>
+
+        <!-- بازگشت به ورود -->
+        <div>
+          <p>
+            <a href="login.html">بازگشت به صفحه ورود</a>
+          </p>
+        </div>
+      </form>
+    </section>
+   <div class="form-wrapper"></div>
+  </main>
+</body>
+</html>
