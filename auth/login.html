@@ -8,7 +8,19 @@
   <title>صفحه ورود</title>
   <!-- لینک به CSS بعداً اضافه می‌کنیم -->
 </head>
- <body class="dark">
+ <body>
+
+  <nav>
+      <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/aboutUs.html">About Us</a></li>
+          <li><a href="/pages/callUs.html">Contact Us</a></li>
+          <li><a href="/pages/myTeam.html">Our Team</a></li>
+          <li><a href="/auth/login.html">Login</a></li>
+          <li><a href="/auth/register.html">Register</a></li>
+      </ul>
+  </nav>
+
   <!-- کانتینر اصلی -->
   <main id="main" class="login-page" aria-labelledby="login-heading">
   <div class="form-wrapper">
@@ -39,12 +51,6 @@
         placeholder="رمز عبور شما"
         required
       />
-    </div>
-
-    <!-- مرا به خاطر بسپار -->
-    <div>
-      <input type="checkbox" id="remember" name="remember" />
-      <label for="remember">مرا به خاطر بسپار</label>
     </div>
 
     <!-- دکمه ورود -->
