@@ -62,6 +62,7 @@ nav {
   align-items: center;
   border-radius: 15px;
   margin-top: 0;
+  height: 78px;
 }
 
 nav > ul > li {
@@ -109,7 +110,7 @@ button:active {
 
 /* ========== CARDS ========== */
 .form-container {
-  background-color: var(--md-sys-color-surface-container);
+  background-color: var(--md-sys-color-surface-container-low);
   color: var(--md-sys-color-on-surface);
   border-radius: 12px;
   padding: 2rem;
