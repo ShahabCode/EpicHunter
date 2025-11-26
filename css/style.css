@@ -2,6 +2,12 @@
 @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
 @import url('./light-hc.css');
 
+/* ========== */
+
+:root{
+  --md-sys-shape-corner-full: 12px;
+}
+
 /* ========== GLOBAL RESET ========== */
 * {
   box-sizing: border-box;
@@ -163,7 +169,7 @@ button .icon, .btn .icon {
 
 button:hover,
 .btn:hover {
-  box-shadow: var(--md-sys-elevation-level1);
+  box-shadow: var(--md-sys-color-shadow);
   color: var(--md-sys-color-on-primary);
   opacity: 0.9;
 }
